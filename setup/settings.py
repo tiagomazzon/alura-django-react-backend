@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-($*ak^b(@*_1x5)4g%ieq1dcsy(!7cwf*rgy_fw05j5g*(=^d=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'alura-pizza-mazzon.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'alura-pizza-mazzon.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'restaurante',
 ]
 
 MIDDLEWARE = [
