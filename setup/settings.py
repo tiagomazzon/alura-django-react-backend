@@ -117,7 +117,8 @@ USE_I18N = True
 USE_TZ = True
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    'http://localhost:3000',
+    'https://alura-django-react-frontend.vercel.app'
 ]
 
 # Static files (CSS, JavaScript, Images)
